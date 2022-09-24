@@ -1,0 +1,1 @@
+find . -readable ! -executable -size 1033c | xargs cat | sed s/' '/''/g
