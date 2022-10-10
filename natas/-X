@@ -1,0 +1,118 @@
+== Info: Could not resolve host: POST
+== Info: Closing connection 0
+== Info:   Trying 13.49.7.247:80...
+== Info: Connected to natas14.natas.labs.overthewire.org (13.49.7.247) port 80 (#1)
+== Info: Server auth using Basic with user 'natas14'
+=> Send header, 247 bytes (0xf7)
+0000: 50 4f 53 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d POST / HTTP/1.1.
+0010: 0a 48 6f 73 74 3a 20 6e 61 74 61 73 31 34 2e 6e .Host: natas14.n
+0020: 61 74 61 73 2e 6c 61 62 73 2e 6f 76 65 72 74 68 atas.labs.overth
+0030: 65 77 69 72 65 2e 6f 72 67 0d 0a 41 75 74 68 6f ewire.org..Autho
+0040: 72 69 7a 61 74 69 6f 6e 3a 20 42 61 73 69 63 20 rization: Basic 
+0050: 62 6d 46 30 59 58 4d 78 4e 44 70 78 55 47 46 36 bmF0YXMxNDpxUGF6
+0060: 55 30 70 43 62 58 4a 74 56 54 64 56 55 55 70 32 U0pCbXJtVTdVUUp2
+0070: 4d 54 64 4e 53 47 73 78 55 45 64 44 4e 45 52 34 MTdNSGsxUEdDNER4
+0080: 57 6b 31 46 55 41 3d 3d 0d 0a 55 73 65 72 2d 41 Wk1FUA==..User-A
+0090: 67 65 6e 74 3a 20 63 75 72 6c 2f 37 2e 38 35 2e gent: curl/7.85.
+00a0: 30 0d 0a 41 63 63 65 70 74 3a 20 2a 2f 2a 0d 0a 0..Accept: */*..
+00b0: 43 6f 6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 Content-Length: 
+00c0: 33 39 0d 0a 43 6f 6e 74 65 6e 74 2d 54 79 70 65 39..Content-Type
+00d0: 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 2d : application/x-
+00e0: 77 77 77 2d 66 6f 72 6d 2d 75 72 6c 65 6e 63 6f www-form-urlenco
+00f0: 64 65 64 0d 0a 0d 0a                            ded....
+=> Send data, 39 bytes (0x27)
+0000: 75 73 65 72 6e 61 6d 65 3d 22 24 73 71 6c 69 6e username="$sqlin
+0010: 6a 65 63 74 69 6f 6e 22 26 70 61 73 73 77 6f 72 jection"&passwor
+0020: 64 3d 70 77 6e 65 64                            d=pwned
+== Info: Mark bundle as not supporting multiuse
+<= Recv header, 17 bytes (0x11)
+0000: 48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d HTTP/1.1 200 OK.
+0010: 0a                                              .
+<= Recv header, 37 bytes (0x25)
+0000: 44 61 74 65 3a 20 54 68 75 2c 20 32 39 20 53 65 Date: Thu, 29 Se
+0010: 70 20 32 30 32 32 20 30 32 3a 30 34 3a 34 31 20 p 2022 02:04:41 
+0020: 47 4d 54 0d 0a                                  GMT..
+<= Recv header, 32 bytes (0x20)
+0000: 53 65 72 76 65 72 3a 20 41 70 61 63 68 65 2f 32 Server: Apache/2
+0010: 2e 34 2e 35 32 20 28 55 62 75 6e 74 75 29 0d 0a .4.52 (Ubuntu)..
+<= Recv header, 23 bytes (0x17)
+0000: 56 61 72 79 3a 20 41 63 63 65 70 74 2d 45 6e 63 Vary: Accept-Enc
+0010: 6f 64 69 6e 67 0d 0a                            oding..
+<= Recv header, 22 bytes (0x16)
+0000: 43 6f 6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 Content-Length: 
+0010: 31 30 37 31 0d 0a                               1071..
+<= Recv header, 40 bytes (0x28)
+0000: 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20 74 65 Content-Type: te
+0010: 78 74 2f 68 74 6d 6c 3b 20 63 68 61 72 73 65 74 xt/html; charset
+0020: 3d 55 54 46 2d 38 0d 0a                         =UTF-8..
+<= Recv header, 2 bytes (0x2)
+0000: 0d 0a                                           ..
+<= Recv data, 1071 bytes (0x42f)
+0000: 3c 68 74 6d 6c 3e 0a 3c 68 65 61 64 3e 0a 3c 21 <html>.<head>.<!
+0010: 2d 2d 20 54 68 69 73 20 73 74 75 66 66 20 69 6e -- This stuff in
+0020: 20 74 68 65 20 68 65 61 64 65 72 20 68 61 73 20  the header has 
+0030: 6e 6f 74 68 69 6e 67 20 74 6f 20 64 6f 20 77 69 nothing to do wi
+0040: 74 68 20 74 68 65 20 6c 65 76 65 6c 20 2d 2d 3e th the level -->
+0050: 0a 3c 6c 69 6e 6b 20 72 65 6c 3d 22 73 74 79 6c .<link rel="styl
+0060: 65 73 68 65 65 74 22 20 74 79 70 65 3d 22 74 65 esheet" type="te
+0070: 78 74 2f 63 73 73 22 20 68 72 65 66 3d 22 68 74 xt/css" href="ht
+0080: 74 70 3a 2f 2f 6e 61 74 61 73 2e 6c 61 62 73 2e tp://natas.labs.
+0090: 6f 76 65 72 74 68 65 77 69 72 65 2e 6f 72 67 2f overthewire.org/
+00a0: 63 73 73 2f 6c 65 76 65 6c 2e 63 73 73 22 3e 0a css/level.css">.
+00b0: 3c 6c 69 6e 6b 20 72 65 6c 3d 22 73 74 79 6c 65 <link rel="style
+00c0: 73 68 65 65 74 22 20 68 72 65 66 3d 22 68 74 74 sheet" href="htt
+00d0: 70 3a 2f 2f 6e 61 74 61 73 2e 6c 61 62 73 2e 6f p://natas.labs.o
+00e0: 76 65 72 74 68 65 77 69 72 65 2e 6f 72 67 2f 63 verthewire.org/c
+00f0: 73 73 2f 6a 71 75 65 72 79 2d 75 69 2e 63 73 73 ss/jquery-ui.css
+0100: 22 20 2f 3e 0a 3c 6c 69 6e 6b 20 72 65 6c 3d 22 " />.<link rel="
+0110: 73 74 79 6c 65 73 68 65 65 74 22 20 68 72 65 66 stylesheet" href
+0120: 3d 22 68 74 74 70 3a 2f 2f 6e 61 74 61 73 2e 6c ="http://natas.l
+0130: 61 62 73 2e 6f 76 65 72 74 68 65 77 69 72 65 2e abs.overthewire.
+0140: 6f 72 67 2f 63 73 73 2f 77 65 63 68 61 6c 6c 2e org/css/wechall.
+0150: 63 73 73 22 20 2f 3e 0a 3c 73 63 72 69 70 74 20 css" />.<script 
+0160: 73 72 63 3d 22 68 74 74 70 3a 2f 2f 6e 61 74 61 src="http://nata
+0170: 73 2e 6c 61 62 73 2e 6f 76 65 72 74 68 65 77 69 s.labs.overthewi
+0180: 72 65 2e 6f 72 67 2f 6a 73 2f 6a 71 75 65 72 79 re.org/js/jquery
+0190: 2d 31 2e 39 2e 31 2e 6a 73 22 3e 3c 2f 73 63 72 -1.9.1.js"></scr
+01a0: 69 70 74 3e 0a 3c 73 63 72 69 70 74 20 73 72 63 ipt>.<script src
+01b0: 3d 22 68 74 74 70 3a 2f 2f 6e 61 74 61 73 2e 6c ="http://natas.l
+01c0: 61 62 73 2e 6f 76 65 72 74 68 65 77 69 72 65 2e abs.overthewire.
+01d0: 6f 72 67 2f 6a 73 2f 6a 71 75 65 72 79 2d 75 69 org/js/jquery-ui
+01e0: 2e 6a 73 22 3e 3c 2f 73 63 72 69 70 74 3e 0a 3c .js"></script>.<
+01f0: 73 63 72 69 70 74 20 73 72 63 3d 68 74 74 70 3a script src=http:
+0200: 2f 2f 6e 61 74 61 73 2e 6c 61 62 73 2e 6f 76 65 //natas.labs.ove
+0210: 72 74 68 65 77 69 72 65 2e 6f 72 67 2f 6a 73 2f rthewire.org/js/
+0220: 77 65 63 68 61 6c 6c 2d 64 61 74 61 2e 6a 73 3e wechall-data.js>
+0230: 3c 2f 73 63 72 69 70 74 3e 3c 73 63 72 69 70 74 </script><script
+0240: 20 73 72 63 3d 22 68 74 74 70 3a 2f 2f 6e 61 74  src="http://nat
+0250: 61 73 2e 6c 61 62 73 2e 6f 76 65 72 74 68 65 77 as.labs.overthew
+0260: 69 72 65 2e 6f 72 67 2f 6a 73 2f 77 65 63 68 61 ire.org/js/wecha
+0270: 6c 6c 2e 6a 73 22 3e 3c 2f 73 63 72 69 70 74 3e ll.js"></script>
+0280: 0a 3c 73 63 72 69 70 74 3e 76 61 72 20 77 65 63 .<script>var wec
+0290: 68 61 6c 6c 69 6e 66 6f 20 3d 20 7b 20 22 6c 65 hallinfo = { "le
+02a0: 76 65 6c 22 3a 20 22 6e 61 74 61 73 31 34 22 2c vel": "natas14",
+02b0: 20 22 70 61 73 73 22 3a 20 22 71 50 61 7a 53 4a  "pass": "qPazSJ
+02c0: 42 6d 72 6d 55 37 55 51 4a 76 31 37 4d 48 6b 31 BmrmU7UQJv17MHk1
+02d0: 50 47 43 34 44 78 5a 4d 45 50 22 20 7d 3b 3c 2f PGC4DxZMEP" };</
+02e0: 73 63 72 69 70 74 3e 3c 2f 68 65 61 64 3e 0a 3c script></head>.<
+02f0: 62 6f 64 79 3e 0a 3c 68 31 3e 6e 61 74 61 73 31 body>.<h1>natas1
+0300: 34 3c 2f 68 31 3e 0a 3c 64 69 76 20 69 64 3d 22 4</h1>.<div id="
+0310: 63 6f 6e 74 65 6e 74 22 3e 0a 3c 62 72 20 2f 3e content">.<br />
+0320: 0a 3c 62 3e 57 61 72 6e 69 6e 67 3c 2f 62 3e 3a .<b>Warning</b>:
+0330: 20 20 6d 79 73 71 6c 69 5f 6e 75 6d 5f 72 6f 77   mysqli_num_row
+0340: 73 28 29 20 65 78 70 65 63 74 73 20 70 61 72 61 s() expects para
+0350: 6d 65 74 65 72 20 31 20 74 6f 20 62 65 20 6d 79 meter 1 to be my
+0360: 73 71 6c 69 5f 72 65 73 75 6c 74 2c 20 62 6f 6f sqli_result, boo
+0370: 6c 20 67 69 76 65 6e 20 69 6e 20 3c 62 3e 2f 76 l given in <b>/v
+0380: 61 72 2f 77 77 77 2f 6e 61 74 61 73 2f 6e 61 74 ar/www/natas/nat
+0390: 61 73 31 34 2f 69 6e 64 65 78 2e 70 68 70 3c 2f as14/index.php</
+03a0: 62 3e 20 6f 6e 20 6c 69 6e 65 20 3c 62 3e 32 34 b> on line <b>24
+03b0: 3c 2f 62 3e 3c 62 72 20 2f 3e 0a 41 63 63 65 73 </b><br />.Acces
+03c0: 73 20 64 65 6e 69 65 64 21 3c 62 72 3e 3c 64 69 s denied!<br><di
+03d0: 76 20 69 64 3d 22 76 69 65 77 73 6f 75 72 63 65 v id="viewsource
+03e0: 22 3e 3c 61 20 68 72 65 66 3d 22 69 6e 64 65 78 "><a href="index
+03f0: 2d 73 6f 75 72 63 65 2e 68 74 6d 6c 22 3e 56 69 -source.html">Vi
+0400: 65 77 20 73 6f 75 72 63 65 63 6f 64 65 3c 2f 61 ew sourcecode</a
+0410: 3e 3c 2f 64 69 76 3e 0a 3c 2f 64 69 76 3e 0a 3c ></div>.</div>.<
+0420: 2f 62 6f 64 79 3e 0a 3c 2f 68 74 6d 6c 3e 0a    /body>.</html>.
+== Info: Connection #1 to host natas14.natas.labs.overthewire.org left intact
